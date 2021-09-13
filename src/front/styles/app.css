@@ -1,0 +1,550 @@
+html, body { height: 100% }
+
+.supportForm{
+    align-items: center;
+    width: 800px;
+}
+
+.register-form {
+    margin-bottom: 50px;
+}
+.register-background {    
+    @media (max-width:992px) {
+        display: none;
+    }
+} 
+
+.register-bg-small {    
+    @media screen {
+        display: block;
+        align-items: center;
+        max-width: 100%;
+    }
+    @media (min-width:992px ) {
+        display: none;
+    }
+}
+
+
+.jumbotron-inicio{
+    background-image: linear-gradient(rgba(214, 214, 214, 0.29), rgba(231, 231, 231, 0.29)), url(../img/dog-relax.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.welcome-text {
+    font-family: 'Roboto',sans-serif;    
+    color: white;
+}
+.brand-text {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 56px;
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+
+.booking-background {    
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.booking-background-small {
+    @media screen {
+        display: block;
+        max-width: 100%;
+    }
+    @media (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.center-welcome-text{
+    padding-top: 150px;
+}
+
+.jumbotron-booking{
+    background-image: url(../img/white-bg-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 100%;     
+    text-decoration: none;    
+}
+
+.jumbotron-info{
+    background: white;
+}
+.jumbotron-info-title{
+    font-family: 'Amatic SC', cursive;
+    color: #17A2B8;
+    text-shadow: 3px 3px 5px #747373;
+}
+
+.delete-bullet-points{
+    list-style-type: none;
+}
+
+.jumbotron-reviews{
+    background: url(../img/dog-banner.jpg);
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.reviews-title{
+    padding-top: 100px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.reviews-text{
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.reviews-name{
+    padding-bottom: 100px;
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.jumbotron-join-us{
+    background-image: url(../img/dog-licking-mans-face.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 700px;   
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.booking-jumbotron-text {
+    color: rgb(39, 39, 39);
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+
+.join-us-text-1{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px #000000;
+}
+.join-us-text-2{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.register-button-padding{
+    padding-bottom: 350px;
+    padding-left: 150px;
+}
+
+.top-content .carousel-item {
+    /* width: 100%; */
+    height: 100vh;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .top-content .carousel-item-4 {
+    background-image: url(../img/slides/slide-img-4.jpg);
+} */
+
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
+}
+
+
+/* speech bubble */
+
+.box {
+  width: 500px;
+  /* margin: 50px auto; */
+  border-radius: 15px;
+  background: #17A2B8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #17A2B8;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #17A2B8;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* width: 100%; */
+  text-align: center;
+}
+.boxDatos{
+    border: solid;
+    border-color: #17A2B8;
+    border-radius: 3px;
+    height: 600px;
+}
+body{
+    /* margin-top:20px; */
+    background: white;
+}
+/* My Account */
+.payments-item img.mr-3 {
+    width: 47px;
+}
+/* .order-list .btn {
+    border-radius: 2px;
+    min-width: 121px;
+    font-size: 13px;
+    padding: 7px 0 7px 0;
+} */
+.osahan-account-page-left .nav-link {
+    padding: 18px 20px;
+    border: none;
+    font-weight: 600;
+    color: #535665;
+}
+.osahan-account-page-left .nav-link i {
+    width: 28px;
+    height: 28px;
+    background: #535665;
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin: 0 7px 0 0px;
+    color: #fff;
+}
+.osahan-account-page-left .nav-link.active {
+    background: #f3f7f8;
+    color: #282c3f !important;
+}
+.osahan-account-page-left .nav-link.active i {
+    background: #282c3f !important;
+}
+.osahan-user-media img {
+    width: 90px;
+}
+.card offer-card h5.card-title {
+    border: 2px dotted #000;
+}
+.card.offer-card h5 {
+    border: 1px dotted #daceb7;
+    display: inline-table;
+    color: #17a2b8;
+    margin: 0 0 19px 0;
+    font-size: 15px;
+    padding: 6px 10px 6px 6px;
+    border-radius: 2px;
+    background: #fffae6;
+    position: relative;
+}
+.card.offer-card h5 img {
+    height: 22px;
+    object-fit: cover;
+    width: 22px;
+    margin: 0 8px 0 0;
+    border-radius: 2px;
+}
+.card.offer-card h5:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #daceb7;
+    content: "";
+    left: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.card.offer-card h5:before {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #daceb7;
+    content: "";
+    left: 30px;
+    position: absolute;
+    top: 0;
+}
+.payments-item .media {
+    align-items: center;
+}
+.payments-item .media img {
+    margin: 0 40px 0 11px !important;
+}
+.reviews-members .media .mr-3 {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+.order-list img.mr-4 {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    border-radius: 2px;
+}
+.osahan-cart-item p.text-gray.float-right {
+    margin: 3px 0 0 0;
+    font-size: 12px;
+}
+.osahan-cart-item .food-item {
+    vertical-align: bottom;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+a:hover{
+    text-decoration:none;
+}
+
+
+/* tabs styles */
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 300px;
+  background: #f1f1f1;
+  word-break: normal;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #17a2b8;
+}
+
+.inactive-tab-style::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    background: white;
+}
+
+.tabs-button-style {
+  border: none;  
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: #F6F6F6;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+.preventative-care-img {
+    max-width: 100%;
+    /* @media (max-width:1091px) and (min-width:500px ) {
+        width: 548px;
+        height: 275px;
+    } */
+}
+.dental-care-img {
+    width: 100%;
+    min-height: 150px; 
+}
+.other-services-img {
+    width: 100%;
+    min-height: 150px; 
+}
+.tabs-info-text {
+    word-break: normal;
+}
+
+/* and (min-width: 768px) */
+h1 {
+    @media (max-width: 1320px) {
+        font-size: 35px;
+    }
+    @media (max-width: 1090px) {
+        font-size: 30px;
+    }
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
+    @media (max-width: 636px) {
+        font-size: 20px;
+    }    
+
+}
+
+h2 {
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+h4 {
+    @media (max-width: 768px) {
+        font-size: 15px;
+    }
+}
+p {
+    @media (max-width: 500px) {
+        font-size: 10px;
+    }
+}
+p .vets-info {
+    @media (max-width: 578px) {
+        padding-left:10px;
+    }
+}
+
+.info-image {
+    max-width: 100%;
+}
+
+.tabs-button-style button{
+    @media (max-width:846px ) {
+        padding: 0px;
+    }
+}
+
+.reponsive-button {
+    @media (max-width:930px) {
+        font-size: 2vw;
+    }
+}
+
+.navbar-logo {
+    @media (max-width:930px) {
+        width: 60px;
+    }
+}
+
+.accordion-title {
+    color: black;
+}
+
+.show-hide-tabs{
+    @media (max-width:992px) {
+        display: none;
+    }
+}
+
+.show-hide-accordion {
+    @media (max-width:992px) {
+        display: block;
+    }
+}
+
+.show-hide-accordion {
+    @media (min-width:991px) {
+        display: none;
+    }
+}
+
+.accordion-title {
+    display: block;
+ }
+.accordion-title:hover{
+    background-color: #F8F9FA;
+}
+.accordion-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: #17a2b8;
+}
+
+.margin-bottom-style {
+    margin-bottom: 110px;
+} 
+
+.img-cat {
+    width: 100%;
+}
